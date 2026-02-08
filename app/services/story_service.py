@@ -4,7 +4,7 @@ from app.services.embedding_service import generate_embedding
 from app.services.vector_store import add_vector
 
 def create_story(db: Session, story_data: dict):
-    combined_text = f"{story_data['title']} {story_data['description']} {story_data.get('transcript', '')}"
+    combined_text = f"{story_data['title']} {story_data['genre']} {story_data.get('transcript', '')}"
 
     try:
         embedding = generate_embedding(combined_text)

@@ -5,7 +5,7 @@ from app.models import story
 
 
 Base.metadata.create_all(bind=engine)
-app=FastAPI(title="AI Audio Content Search Backend")
+app=FastAPI(title="AI-Ready Search Backend (RAG)")
 
 
 app.include_router(router)
