@@ -1,10 +1,11 @@
- AI Audio Content Search Backend (RAG-based)
--- Problem
+ ##AI Audio Content Search Backend (RAG-based)
+ 
+##Problem
 
 Traditional keyword-based search fails for audio content and long-form transcripts.
 Users cannot easily find relevant information using exact keywords, especially at scale.
 
- Solution
+ ##Solution
 
 This project implements a backend system for semantic search and contextual answering using a Retrieval-Augmented Generation (RAG) pipeline.
 
@@ -16,7 +17,7 @@ Performs semantic similarity search
 
 Generates responses strictly grounded in retrieved data (no hallucination)
 
- Tech Stack (ACTUALLY USED)
+ ##Tech Stack (ACTUALLY USED)
 
 Python
 
